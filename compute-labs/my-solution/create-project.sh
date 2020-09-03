@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Import the settings from the common settings file
-source ../project-settings.sh
+source ./project-settings.sh
 
 #create project
-gcloud projects create $PROJECT_NAME --name="$PROJECT_NAME"
+gcloud projects create $PROJECT_NAME --name=$PROJECT_NAME
 
 #set gloud config setting
 gcloud config set project $PROJECT_NAME

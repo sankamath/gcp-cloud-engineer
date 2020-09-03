@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Import the settings from the common settings file
-source ../project-settings.sh
+source ./project-settings.sh
 
 
 #create Instance with metadata which contains the bucket info to push the logs once startup script has been completed to the bucket.

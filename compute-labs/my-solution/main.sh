@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Import the settings from the common settings file
-source ../project-settings.sh
+source ./project-settings.sh
 
 #create project
 bash create-project.sh
